@@ -1,0 +1,11 @@
+
+단어유사도 평가가  데이터셋 다운로드 
+
+mkdir -p /notebooks/embedding/data/raw/
+
+wget https://github.com/dongjun-Lee/kor2vec/raw/master/test_dataset/kor_ws353.csv -P /notebooks/embedding/data/raw
+
+단어 유추 평가 데이터셋 다운로드
+
+wget https://github.com/dongjun-Lee/kor2vec/raw/master/test_dataset/kor_analogy_semantic.txt -P /notebooks/embedding/data/raw
+
